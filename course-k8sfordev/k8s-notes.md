@@ -21,4 +21,4 @@
 - /DockerAndKubernetesCourseCode/samples/services
 - Layer 4 load balancer
 - ClusterIP, NodePort, LoadBalancer, ExternalName (maps DNS)
-- ClusterIP (internal), Ingress (external-L7) vs LoadBalancer (external-L4)
+- ClusterIP (internal), Ingress (external-L7) vs LoadBalancer (external-L4) [https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0]
