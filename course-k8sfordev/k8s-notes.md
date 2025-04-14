@@ -22,3 +22,17 @@
 - Layer 4 load balancer
 - ClusterIP, NodePort, LoadBalancer, ExternalName (maps DNS)
 - ClusterIP (internal), Ingress (external-L7) vs LoadBalancer (external-L4) [https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0]
+
+### Volumes
+- emptyDir, hostPath, azureDisk, azureFile, elasticBlockStore
+- [https://github.com/kubernetes/examples]
+
+### ConfigMap
+- config via environment vars or access as file via a volume
+- options --from-file, --from-env-file, --from-literal
+- can load env from entire configmap - configMapRef: -name: app-settings
+
+### Secrets
+- can encode tls secret: --cert= --key=
+- secrets are only base64 encoded in manifest
+
